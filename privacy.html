@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Datenschutzerklärung – Nova Workspace</title>
+  <style>
+    body { max-width: 760px; margin: 48px auto; padding: 0 24px; font: 18px/1.65 Arial, sans-serif; color: #202b30; background: #fafaf7; }
+    h1, h2 { line-height: 1.25; }
+    h1 { font-size: 2rem; }
+    h2 { margin-top: 32px; font-size: 1.3rem; }
+    a { color: #00695c; }
+    a:focus-visible { outline: 3px solid #00695c; outline-offset: 4px; }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #cbd3d0; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="index.html">Zur Startseite</a></p>
+    <h1>Datenschutzerklärung</h1>
+    <p>Nova Workspace ist eine privat betriebene persönliche KI-Assistenz auf Basis von Hermes Agent. Diese Hinweise beschreiben die vorgesehene Google-Anbindung und den bestätigten Datenfluss der privaten Instanz. Die Anwendung bietet keine öffentliche Registrierung an.</p>
+
+    <h2>1. Betreiber und Kontakt</h2>
+    <p>Die Instanz wird durch ihren privaten Nutzer auf einem eigenen Rechner betrieben. Kontakt für Fragen zum Datenzugriff und zu gespeicherten Inhalten: <a href="mailto:nova.assistent.mm@gmail.com">nova.assistent.mm@gmail.com</a>.</p>
+
+    <h2>2. Zugriff auf Google-Daten</h2>
+    <p>Der Zugriff erfolgt erst nach ausdrücklicher Google-OAuth-Freigabe und innerhalb der tatsächlich erteilten Berechtigungen. Für die beauftragten Funktionen können folgende Daten verarbeitet werden:</p>
+    <ul>
+      <li>Gmail: Nachrichteninhalte, Absender, Empfänger, Betreff, Entwürfe sowie gegebenenfalls benötigte Anhänge.</li>
+      <li>Calendar: Kalendernamen, Termine, Zeiten, Beschreibungen, Orte und Teilnehmer aus eigenen oder für das autorisierte Konto freigegebenen Kalendern.</li>
+      <li>Drive, Sheets und Docs: Dateinamen, Metadaten und die für den Auftrag benötigten Datei-, Tabellen- und Dokumentinhalte.</li>
+      <li>Contacts: freigegebene Kontaktinformationen, etwa Namen, E-Mail-Adressen und Telefonnummern.</li>
+      <li>OAuth-Zugangsdaten: Client-Konfiguration sowie nach Anmeldung ausgestellte Zugriffs- und gegebenenfalls Refresh-Tokens zur Aufrechterhaltung des freigegebenen Zugriffs.</li>
+    </ul>
+    <p>Die API-Freigabe ist nicht gleichbedeutend mit einem Auftrag, alle verfügbaren Daten abzurufen. Datenzugriffe sollen auf den jeweiligen Nutzerauftrag begrenzt bleiben.</p>
+
+    <h2>3. Verwendungszwecke und Nutzerkontrolle</h2>
+    <p>Die Daten dienen persönlichen Assistenzaufgaben: Informationen suchen und zusammenfassen, Termine und Überschneidungen prüfen, Nachrichtenentwürfe vorbereiten und angeforderte Dateien, Tabellen oder Dokumente bearbeiten.</p>
+    <p>E-Mails werden nur nach ausdrücklicher Freigabe versendet. Termine im persönlichen Hauptkalender werden nur nach ausdrücklicher Bestätigung angelegt, geändert oder gelöscht. Inhalte aus E-Mails und Dokumenten sind keine eigenständigen Handlungsfreigaben.</p>
+
+    <h2>4. Externe Verarbeitung und Empfänger</h2>
+    <p>Der Betrieb auf dem eigenen Rechner bedeutet nicht, dass sämtliche Inhalte ausschließlich lokal verarbeitet werden. Für eine angeforderte KI-Auswertung können abgerufene Google-Inhalte und daraus abgeleitete Informationen im Gesprächskontext an den konfigurierten KI-Anbieter übermittelt werden. Derzeit ist dies OpenAI über die bestehende Hermes-Verbindung. Aufträge und Antworten werden über Telegram ausgetauscht; Antworten können entsprechend dem Auftrag Google-Inhalte enthalten.</p>
+    <p>Google stellt die verbundenen Dienste und die OAuth-Anmeldung bereit. Für die Verarbeitung und Aufbewahrung bei Google, dem KI-Anbieter und Telegram gelten zusätzlich deren jeweilige Bedingungen und Kontoeinstellungen. Diese Hinweise versprechen keine ausschließlich lokale Verarbeitung oder pauschale Nicht-Speicherung durch diese Anbieter.</p>
+    <p>Die Anwendung verwendet Google-Daten nicht für Werbung oder einen Verkauf von Daten und besitzt keine Funktion zum Training allgemeiner KI-Modelle. Google-Daten dürfen auch bei eingesetzten Dienstleistern nicht zum Training allgemeiner, nicht nutzerspezifischer KI-Modelle verwendet werden. Die dafür erforderlichen Anbieterbedingungen und Kontoeinstellungen sind vor der produktiven Verarbeitung von Google-Inhalten sicherzustellen.</p>
+
+    <h2>5. Lokale Speicherung und Aufbewahrung</h2>
+    <p>Client-Konfiguration und nach Anmeldung benötigte Tokens werden auf dem Rechner der privaten Instanz gespeichert. Zugangsdaten gehören nicht in das öffentliche Website-Repository oder in das allgemeine Assistenten-Gedächtnis. Eine durchgehend verschlüsselte Ablage wird hier nicht als bereits umgesetzt zugesichert.</p>
+    <p>Abgerufene Inhalte und Antworten können in lokalen Gesprächsverläufen, Protokollen, Zwischenspeichern und ausdrücklich erzeugten Dateien enthalten sein. Für diese lokalen Kopien ist derzeit keine einheitliche automatische Löschfrist eingerichtet. Sie bleiben bis zu einer gezielten Bereinigung gespeichert. Eine ausschließlich lokale Löschung entfernt nicht automatisch Daten bei externen Anbietern.</p>
+
+    <h2>6. Widerruf, Auskunft und Löschung</h2>
+    <p>Die Google-Freigabe kann in den <a href="https://myaccount.google.com/connections">Google-Kontoeinstellungen für Drittanbieter-Verbindungen</a> widerrufen werden. Ein Widerruf macht die Berechtigung für künftige API-Zugriffe ungültig, löscht aber nicht automatisch bereits gespeicherte lokale Kopien.</p>
+    <p>Für eine Übersicht oder gezielte Löschung lokal gespeicherter Inhalte kann der Betreiber über die oben genannte Adresse kontaktiert werden. Bei der privaten Instanz kann der Nutzer die Bereinigung außerdem unmittelbar beauftragen. Google-Originaldaten werden durch eine solche lokale Bereinigung nicht ohne einen gesonderten Auftrag verändert.</p>
+
+    <h2>7. Diese öffentliche Website</h2>
+    <p>Die Informationsseiten enthalten keine Google-Zugangsdaten oder privaten Google-Inhalte. Der bereitgestellte HTML-Code setzt keine eigenen Analyse-Skripte, Formulare oder Tracking-Cookies ein. Das Hosting erfolgt über GitHub Pages. GitHub kann beim Seitenabruf technische Verbindungsdaten verarbeiten; dazu gelten die <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzhinweise von GitHub</a>.</p>
+    <p>Bei Änderungen der eingesetzten Dienste, Berechtigungen oder Speicherpraxis müssen diese Hinweise aktualisiert werden.</p>
+  </main>
+  <footer>Nova Workspace · Stand: 15. November 2026</footer>
+</body>
+</html>
